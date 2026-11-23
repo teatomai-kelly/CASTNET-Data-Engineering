@@ -1,0 +1,71 @@
+SITE_ID,match_status,SITE_NAME,STATE,COUNTY,ACTIVE,INACTIVE
+BFT142,annual_only,Beaufort,NC,Carteret,domp,w
+BFT142,present_in_both,Beaufort,NC,Carteret,domp,w
+BFT142,weekly_only,Beaufort,NC,Carteret,domp,w
+CDZ171,annual_only,Cadiz,KY,Trigg,,dom
+CDZ171,present_in_both,Cadiz,KY,Trigg,,dom
+CDZ171,weekly_only,Cadiz,KY,Trigg,,dom
+CDZ571,annual_only,Cadiz Aerosol,KY,Trigg,,ain
+CKT136,annual_only,Crockett,KY,Morgan,dom,
+CKT136,present_in_both,Crockett,KY,Morgan,dom,
+CKT136,weekly_only,Crockett,KY,Morgan,dom,
+CLD303,annual_only,Clingmans Dome MADPro,TN,Sevier,,dmc
+CND125,annual_only,Candor,NC,Montgomery,dom,w
+CND125,present_in_both,Candor,NC,Montgomery,dom,w
+CND125,weekly_only,Candor,NC,Montgomery,dom,w
+CNS011,weekly_only,Canaveral National Seashore,FL,Brevard,dm,
+COW005,annual_only,Coweeta Screwdriver Knob,NC,Macon,,dm
+COW005,present_in_both,Coweeta Screwdriver Knob,NC,Macon,,dm
+COW137,weekly_only,Coweeta,NC,Macon,dom,
+COW137,present_in_both,Coweeta,NC,Macon,dom,
+COW182,annual_only,Coweeta Special,NC,Macon,,d
+CVL151,weekly_only,Coffeeville,MS,Yalobusha,dom,
+CVL151,present_in_both,Coffeeville,MS,Yalobusha,dom,
+DUK008,annual_only,Duke Forest,NC,Orange,domt,
+DUK008,present_in_both,Duke Forest,NC,Orange,domt,
+DUK008,weekly_only,Duke Forest,NC,Orange,domt,
+ESP127,weekly_only,Edgar Evins,TN,DeKalb,dom,
+ESP127,present_in_both,Edgar Evins,TN,DeKalb,dom,
+EVE419,annual_only,Everglades NP,FL,Miami-Dade,dm,o
+EVE419,present_in_both,Everglades NP,FL,Miami-Dade,dm,o
+EVE419,weekly_only,Everglades NP,FL,Miami-Dade,dm,o
+GAS153,weekly_only,Georgia Station,GA,Pike,dom,
+GAS153,present_in_both,Georgia Station,GA,Pike,dom,
+GAS253,present_in_both,Georgia Station Collocated,GA,Pike,,dom
+GAS253,annual_only,Georgia Station Collocated,GA,Pike,,dom
+GRS420,annual_only,Great Smoky NP - Look Rock,TN,Blount,domt,
+GRS420,present_in_both,Great Smoky NP - Look Rock,TN,Blount,domt,
+GRS420,weekly_only,Great Smoky NP - Look Rock,TN,Blount,domt,
+IRL141,annual_only,Indian River Lagoon,FL,Indian River,dom,
+IRL141,present_in_both,Indian River Lagoon,FL,Indian River,dom,
+IRL141,weekly_only,Indian River Lagoon,FL,Indian River,dom,
+LCW121,weekly_only,Lilley C. Woods,KY,Letcher,,dom
+LCW121,present_in_both,Lilley C. Woods,KY,Letcher,,dom
+LCW121,annual_only,Lilley C. Woods,KY,Letcher,,dom
+MAC426,annual_only,Mammoth Cave NP,KY,Edmonson,domt,
+MAC426,present_in_both,Mammoth Cave NP,KY,Edmonson,domt,
+MAC426,weekly_only,Mammoth Cave NP,KY,Edmonson,domt,
+MCK131,annual_only,Mackville,KY,Washington,dom,
+MCK131,present_in_both,Mackville,KY,Washington,dom,
+MCK131,weekly_only,Mackville,KY,Washington,dom,
+MCK231,annual_only,Mackville Collocated,KY,Washington,dom,
+MCK231,present_in_both,Mackville Collocated,KY,Washington,dom,
+MCK231,weekly_only,Mackville Collocated,KY,Washington,dom,
+ONL102,weekly_only,Oak Ridge,TN,Anderson,,dom
+ONL102,annual_only,Oak Ridge,TN,Anderson,,dom
+PBF129,weekly_only,Perryville,KY,Boyle,,dom
+PBF129,present_in_both,Perryville,KY,Boyle,,dom
+PBF129,annual_only,Perryville,KY,Boyle,,dom
+PNF126,weekly_only,Cranberry,NC,Avery,,domtw
+PNF126,present_in_both,Cranberry,NC,Avery,,domtw
+RTP101,weekly_only,Res. Triangle Pk.,NC,Durham,,domr
+RTP101,present_in_both,Res. Triangle Pk.,NC,Durham,,domr
+RTP101,annual_only,Res. Triangle Pk.,NC,Durham,,domr
+SND152,weekly_only,Sand Mountain,AL,DeKalb,dom,
+SND152,present_in_both,Sand Mountain,AL,DeKalb,dom,
+SPD111,present_in_both,Speedwell,TN,Claiborne,domp,w
+SPD111,weekly_only,Speedwell,TN,Claiborne,domp,w
+SUM156,weekly_only,Sumatra,FL,Liberty,domp,w
+SUM156,present_in_both,Sumatra,FL,Liberty,domp,w
+SUM256,annual_only,Sumatra Collocated,FL,Liberty,,dom
+SUM256,present_in_both,Sumatra Collocated,FL,Liberty,,dom

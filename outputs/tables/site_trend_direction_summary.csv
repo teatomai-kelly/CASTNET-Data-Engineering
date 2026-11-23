@@ -1,0 +1,5 @@
+cohort,metric,decreasing,increasing
+Primary: 2000-2017 (11 sites),N_TOTAL,11,0
+Primary: 2000-2017 (11 sites),S_TOTAL,11,0
+Sensitivity: 2010-2017 (16 sites),N_TOTAL,12,4
+Sensitivity: 2010-2017 (16 sites),S_TOTAL,15,1

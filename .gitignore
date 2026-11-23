@@ -1,4 +1,4 @@
-# Local environment
+# Local environments
 .venv/
 venv/
 __pycache__/
@@ -7,7 +7,10 @@ __pycache__/
 .env
 .env.*
 
-# Raw and generated data (keep source data out of Git)
+# Local editor configuration
+.vscode/
+
+# Raw and generated data
 data/raw/*
 data/interim/*
 data/processed/*
@@ -15,11 +18,25 @@ data/processed/*
 !data/interim/.gitkeep
 !data/processed/.gitkeep
 
-# Generated outputs
+# Curated final figures are version controlled.
+# Other generated figures remain ignored.
 outputs/figures/*
-outputs/reports/*
 !outputs/figures/.gitkeep
+!outputs/figures/primary_cohort_deposition_trends.png
+!outputs/figures/cohort_indexed_deposition_comparison.png
+
+# Generated reports
+outputs/reports/*
 !outputs/reports/.gitkeep
+
+cat >> .gitignore <<'EOF'
+
+# Generated package metadata
+src/*.egg-info/
+
+# Locally extracted source report text
+docs/source_context.txt
+EOF
 
 # Notebook checkpoints
 .ipynb_checkpoints/
