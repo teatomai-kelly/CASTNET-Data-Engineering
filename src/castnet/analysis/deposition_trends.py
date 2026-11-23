@@ -159,8 +159,8 @@ def summarize_annual_cohort(
         subset.groupby("YEAR")
         .agg(
             sites_with_rows=("SITE_ID", "nunique"),
-            N_sites=("N_TOTAL", "count"),
-            S_sites=("S_TOTAL", "count"),
+            N_sites_with_values=("N_TOTAL", "count"),
+            S_sites_with_values=("S_TOTAL", "count"),
             N_TOTAL_mean=("N_TOTAL", "mean"),
             N_TOTAL_median=("N_TOTAL", "median"),
             S_TOTAL_mean=("S_TOTAL", "mean"),
@@ -753,12 +753,9 @@ def run_analysis(
         "annual_hac_trend_robustness.csv": hac_statistics,
         "site_level_trend_slopes.csv": site_statistics,
         "site_trend_direction_summary.csv": site_directions,
-        "weekly_site_year_completeness.csv": weekly_site_year,
-        "weekly_primary_cohort_coverage.csv": weekly_primary_summary,
+        "weekly_primary_cohort_site_year_completeness.csv": weekly_site_year,
+        "weekly_primary_cohort_coverage_by_year.csv": weekly_primary_summary,
         "annual_year_completeness.csv": annual_completeness,
-        "overlap_by_site_year.csv": overlap,
-        "overlap_by_year.csv": overlap_by_year,
-        "site_metadata_for_overlap.csv": site_metadata,
     }
 
     for filename, frame in tables.items():
